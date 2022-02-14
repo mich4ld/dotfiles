@@ -6,9 +6,10 @@ You need:
 - Material Icons
 - rxfetch
 - exa
+- starship
 - neovim
 
 ### Install programs on Arch Linux
 ```sh
-$ sudo pacman -S rxfetch exa neovim
+$ sudo pacman -S rxfetch exa neovim starship
 ```
