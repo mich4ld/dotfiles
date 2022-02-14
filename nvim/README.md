@@ -7,7 +7,7 @@ $ paru -S nvim-packer-git
 
 ### Install LSP servers (Node.js and npm)
 ```sh
-$ npm i -g typescript bash-language-server
+$ npm i -g typescript bash-language-server typescript-language-server
 $ sudo pacman -S rust-analyzer
 ```
 
