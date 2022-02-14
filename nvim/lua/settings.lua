@@ -1,11 +1,11 @@
 local lspconfig = require('lspconfig')
 
 local servers = { 'rust_analyzer', 'tsserver' }
-
 for _, lsp in pairs(servers) do
   lspconfig[lsp].setup {
     on_attach = on_attach,
     flags = {
+      -- This will be the default in neovim 0.7+
       debounce_text_changes = 150,
     }
   }
@@ -37,3 +37,4 @@ require("indent_blankline").setup {
 
 
 require('feline').setup({ components = require('catppuccin.core.integrations.feline') })
+

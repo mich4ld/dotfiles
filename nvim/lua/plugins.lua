@@ -1,4 +1,5 @@
 return require('packer').startup(function()
+    use 'wbthomason/packer.nvim'
     use 'sheerun/vim-polyglot'
     use 'neovim/nvim-lspconfig'
     use 'hrsh7th/nvim-compe'
@@ -25,3 +26,4 @@ return require('packer').startup(function()
     use 'feline-nvim/feline.nvim'
     use "lukas-reineke/indent-blankline.nvim"
 end)
+
