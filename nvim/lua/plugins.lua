@@ -1,6 +1,7 @@
 return require('packer').startup(function()
     use 'sheerun/vim-polyglot'
     use 'neovim/nvim-lspconfig'
+    use 'hrsh7th/nvim-compe'
     use {
     "kyazdani42/nvim-tree.lua",
     requires = "kyazdani42/nvim-web-devicons" ,
