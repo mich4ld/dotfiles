@@ -4,7 +4,7 @@ set -gx BROWSER firefox
 set -gx SHELL /bin/fish
 set -gx DENO_INSTALL $HOME/.deno
 set -gx PATH /home/$USER/.cargo/bin:$PATH
-set -gx PAGER most
+set -gx MANPAGER most
 
 # Replace editors with neovim
 alias vim='$EDITOR'
