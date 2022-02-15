@@ -1,5 +1,7 @@
 return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
+    use 'liuchengxu/vim-clap'
+    use 'glepnir/dashboard-nvim'
     use 'sheerun/vim-polyglot'
     use 'neovim/nvim-lspconfig'
 
@@ -18,17 +20,18 @@ return require('packer').startup(function()
 
       require("nvim-tree").setup {
         hijack_cursor = true,
+        auto_close = true,
         view = {
           width = 40
         }
             }
         end
     }
-        use({
+	use({
        "catppuccin/nvim",
            as = "catppuccin"
-        })
-
+	})
+  
+    use 'lukas-reineke/indent-blankline.nvim'
     use 'feline-nvim/feline.nvim'
-    use "lukas-reineke/indent-blankline.nvim"
 end)
