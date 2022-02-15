@@ -18,7 +18,13 @@ set clipboard=unnamedplus
 set noswapfile
 syntax on
 
+map <Space> <Leader>
 
 lua require('plugins')
 lua require('settings')
+
+nnoremap <C-n> :NvimTreeToggle<CR>
+nnoremap <leader>r :NvimTreeRefresh<CR>
+nnoremap <leader>n :NvimTreeFindFile<CR>
+
 colorscheme catppuccin
