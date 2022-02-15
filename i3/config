@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $wallpaper "~/.config/wallpapers/1.jpg"
+set $wallpaper ".config/wallpapers/1.jpg"
 set $browser "firefox"
 
 set $mod Mod4
