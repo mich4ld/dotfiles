@@ -1,6 +1,7 @@
 return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
     use 'liuchengxu/vim-clap'
+    use 'jiangmiao/auto-pairs'
     use 'glepnir/dashboard-nvim'
     use 'sheerun/vim-polyglot'
     use 'neovim/nvim-lspconfig'
