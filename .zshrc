@@ -20,5 +20,8 @@ alias dc='docker-compose'
 alias kubectl='minikube kubectl -- '
 alias k='kubectl'
 
+# Source useful plugins
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 rxfetch
 eval "$(starship init zsh)"
