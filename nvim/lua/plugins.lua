@@ -5,7 +5,8 @@ return require('packer').startup(function()
     use 'glepnir/dashboard-nvim'
     use 'sheerun/vim-polyglot'
     use 'neovim/nvim-lspconfig'
-
+    use 'sbdchd/neoformat'
+		
     -- Completion:
     use 'hrsh7th/nvim-cmp'
     use 'hrsh7th/cmp-buffer'
