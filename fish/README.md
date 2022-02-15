@@ -14,5 +14,5 @@ You need:
 
 ### Install programs on Arch Linux
 ```sh
-$ sudo pacman -S rxfetch exa neovim starship most
+$ sudo paru -S rxfetch exa neovim starship most
 ```
