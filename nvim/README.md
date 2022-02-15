@@ -1,5 +1,7 @@
 ## Neovim configuration
 ![image](https://user-images.githubusercontent.com/43048524/153890880-33c3b701-93b2-49de-95b6-f8816617f86b.png)
+![image](https://user-images.githubusercontent.com/43048524/154150732-5782ba11-a2bf-412b-bf67-3af6e7a7956f.png)
+
 
 ### Features
 - Autocompletion (nvim-cmp)
