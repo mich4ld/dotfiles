@@ -10,8 +10,9 @@ You need:
 - exa
 - starship
 - neovim
+- most
 
 ### Install programs on Arch Linux
 ```sh
-$ sudo pacman -S rxfetch exa neovim starship
+$ sudo pacman -S rxfetch exa neovim starship most
 ```
