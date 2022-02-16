@@ -20,6 +20,8 @@ for _, lsp in pairs(servers) do
   }
 end
 
+require('rust-tools').setup({})
+
 require("indent_blankline").setup {
   buftype_exclude = { "terminal" },
   filetype_exclude = { "dashboard" },
