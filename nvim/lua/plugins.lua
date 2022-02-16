@@ -6,6 +6,7 @@ return require('packer').startup(function()
     use 'sheerun/vim-polyglot'
     use 'neovim/nvim-lspconfig'
     use 'sbdchd/neoformat'
+    use 'simrat39/rust-tools.nvim'
 		
     -- Completion:
     use 'hrsh7th/nvim-cmp'
