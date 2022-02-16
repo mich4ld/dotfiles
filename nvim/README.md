@@ -10,11 +10,6 @@ Config created with development in Node.js and Rust in mind.
 - Files tree (NvimTree plugin)
 - Catppuccin theme
 
-### Install Packer for plugins management (from AUR)
-```sh
-$ paru -S nvim-packer-git
-```
-
 ### Install LSP servers (Node.js and npm)
 ```sh
 $ npm i -g typescript bash-language-server typescript-language-server
