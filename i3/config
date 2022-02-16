@@ -11,6 +11,7 @@
 
 set $wallpaper ".config/wallpapers/1.jpg"
 set $browser "firefox"
+set $compositor "picom -b"
 
 set $mod Mod4
 
@@ -32,6 +33,9 @@ exec --no-startup-id dex --autostart --environment i3
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
+# Run compositor
+exec --no-startup-id $compositor
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
