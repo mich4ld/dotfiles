@@ -28,3 +28,9 @@ require("indent_blankline").setup {
 }
 
 require('feline').setup({ components = require('catppuccin.core.integrations.feline') })
+
+require('bufferline').setup {
+  options = {
+    offsets = {{filetype = "NvimTree", text = "", padding = 1 }},
+  }
+}
