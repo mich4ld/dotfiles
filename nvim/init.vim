@@ -1,6 +1,7 @@
 set number
 set termguicolors
-set nuw=4
+set nuw=5
+set nowrap
 set shiftwidth=4
 set tabstop=4 softtabstop=4
 set colorcolumn=80
@@ -16,6 +17,8 @@ set cursorline
 set ignorecase
 set clipboard=unnamedplus
 set noswapfile
+set noshowmode
+set signcolumn=yes
 syntax on
 
 map <Space> <Leader>
